@@ -1,4 +1,4 @@
-export class Comics {
+export class Comic {
   constructor(
     public nombre: string,
     public imagen: string,

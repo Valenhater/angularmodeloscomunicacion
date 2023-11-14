@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import {routing, appRoutingProvider} from './app.routing'
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { ListaproductosComponent } from './components/listaproductos/listaproductos.component';
@@ -30,7 +31,8 @@ import { ComicComponent } from './components/comic/comic.component';
   ],
   imports: [
     BrowserModule,
-    routing
+    routing,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

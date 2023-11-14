@@ -6,6 +6,7 @@ import { PadrecochesComponent } from './components/padrecoches/padrecoches.compo
 import { PadredeportesComponent } from './components/padredeportes/padredeportes.component';
 import { Routes, RouterModule } from '@angular/router';
 import { ModuleWithProviders } from '@angular/core';
+import { ComicsComponent } from './components/comics/comics.component';
 
 
 const appRoutes: Routes = [
@@ -14,6 +15,7 @@ const appRoutes: Routes = [
   { path: 'detalleproducto/:nombre/:imagen/:precio ', component: DetalleproductoComponent },
   { path: 'coches', component: PadrecochesComponent },
   { path: 'deportes', component: PadredeportesComponent },
+  { path: 'comics', component: ComicsComponent },
 ];
 
 export const appRoutingProvider: any[] = [];
